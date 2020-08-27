@@ -14,7 +14,6 @@ class MP3Importer
   def import
     song_list = files
     song_list.collect {|v| Song.new_by_filename(v)}
-
   end
 
 end
